@@ -5,6 +5,11 @@ permalink: /docs/install/prerequisites/
 ---
 To get Libresonic running, we are going to install OpenJDK 8 or Oracle JDK 8, set the default `JAVA_HOME`, and finally deploy our Libresonic WAR package.
 
+Please note that if you are running Libresonic on an ARM platform and you
+experience extremely long startup times (on the order of 20-30 minutes), you
+should install Oracle's JDK/JRE. There are known performance issues with
+OpenJDK under ARM.
+
 #### Install OpenJDK 8
 
 ##### On Debian 8

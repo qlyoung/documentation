@@ -11,6 +11,9 @@ Note that, in that case, libresonic will available at `http://localhost:8080` (a
 In order to install and run Libresonic, you will need:
 - [A JDK installation, 1.8.x series of OpenJDK or Oracle JDK 8+ should work.](/docs/install/prerequisites)
 
+If you are running Libresonic on an ARM platform, please see the note in
+`prerequisites.md`
+
 #### Run Libresonic WAR package
 
 Download the latest Libresonic .war package from the [download page](/download), or with the command below:
